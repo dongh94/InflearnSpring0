@@ -32,7 +32,6 @@ public class HelloController {
         Hello hello = new Hello();
         hello.setName(name);
         return hello;
-
     }
 
     static class Hello {
@@ -41,7 +40,6 @@ public class HelloController {
         public String getName() {
             return name;
         }
-
         public void setName(String name) {
             this.name = name;
         }
